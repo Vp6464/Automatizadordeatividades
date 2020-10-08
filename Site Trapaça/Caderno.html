@@ -1,0 +1,302 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Atividades</title>
+    
+  </head>
+
+  
+  <body>
+   
+    <h1 align="center" class="titulo">
+      <a href="meu_site.html">Automatizador de Atividades Escolares</a>
+    </h1>
+
+    <table border="0" width="100%" cellpadding="10">
+      <tr>
+        <td width="70%" valign="top">
+          <img class=imagem src=fundos/pimba.jpeg>
+
+          <textarea id="caixaDeTexto"
+          spellcheck="false"
+            class="textoStrangerThings"
+            name="comentário"
+            rows="10"
+            cols="40"
+        
+          ></textarea>
+        </td>
+
+        <td width="30%" valign="top">
+
+          <select onchange="trocaParaFonteTequila(value);">
+            <option value="1">Fonte 1</option>
+            <option value="2">Fonte 2</option>
+            <option value="3">Fonte 3</option>
+            <option value="4">Fonte 4</option>
+            <option value="5">Fonte 5</option>
+            <option value="6">Fonte 6</option>
+            <option value="7">Fonte 7</option>
+            <option value="8">Fonte 8</option>
+          </select>
+
+          
+
+        </td>
+      </tr>
+    </table>
+
+
+
+    <script>
+    
+    
+    
+
+    
+      
+      function trocaParaFonteTequila(Tq) {
+  
+        if (Tq=="1"){
+          document.getElementById('caixaDeTexto').className = 'textoTequila';
+        console.log(Tq)  
+        }
+        else if (Tq=="2"){
+          document.getElementById('caixaDeTexto').className = 'textoStrangerThings';
+        console.log(Tq)  
+        }
+        else if (Tq=="3"){
+          document.getElementById('caixaDeTexto').className = 'textoold';
+        console.log(Tq)  
+        }
+        else if (Tq=="4"){
+          document.getElementById('caixaDeTexto').className = 'textoF1';
+        console.log(Tq)  
+        }
+        else if (Tq=="5"){
+          document.getElementById('caixaDeTexto').className = 'textoF2';
+        console.log(Tq)  
+        }
+        else if (Tq=="6"){
+          document.getElementById('caixaDeTexto').className = 'textoF3';
+        console.log(Tq)  
+        }
+        else if (Tq=="7"){
+          document.getElementById('caixaDeTexto').className = 'textoF4';
+        console.log(Tq)  
+        }
+        else if (Tq=="8"){
+          document.getElementById('caixaDeTexto').className = 'textoF5';
+        console.log(Tq)  
+        }
+  
+      }
+  
+  
+    </script>
+  </body>
+  <style>
+
+    .titulo {
+      border-width: medium;
+      border-style: solid;
+      border-color: black;
+    }
+    .s1 {
+      margin-top: 10px;
+      margin-left: 50%;
+    }
+    .s2 {
+      margin-top: 100px;
+      margin-left: 50%;
+      }
+            /*Estilo das fontes*/
+     
+    .textoStrangerThings {
+      z-index: 10;
+      position: absolute;
+      top: 272px;
+      width: 866px;
+      height: 1127px;
+      left: 77px ;
+      background-color: transparent;
+      border-color :transparent ;
+      font-size: 20pt;
+      line-height: 20px;
+      
+      font-family:"StrangerThings"
+      
+    }
+
+    .textoTequila {
+      z-index: 10;
+      position: absolute;
+      top: 272px;
+      width: 866px;
+      height: 1127px;
+      left: 77px ;
+      background-color: transparent;
+      border-color :transparent ;
+      font-size: 20pt;
+      line-height: 20px;
+      font-family:"TEQUILA"
+      
+    }
+
+.textoold {
+      z-index: 10;
+      position: absolute;
+      top: 272px;
+      width: 866px;
+      height: 1127px;
+      left: 77px ;
+      background-color: transparent;
+      border-color :transparent ;
+      font-size: 20pt;
+      line-height: 20px;
+      font-family:"Old"
+      
+      
+    }
+    .textoF1 {
+      z-index: 10;
+      position: absolute;
+      top: 272px;
+      width: 866px;
+      height: 1127px;
+      left: 77px ;
+      background-color: transparent;
+      border-color :transparent ;
+      font-size: 20pt;
+      line-height: 20px;
+      font-family:"F1"
+      
+      
+    }
+    .textoF2 {
+      z-index: 10;
+      position: absolute;
+      top: 272px;
+      width: 866px;
+      height: 1127px;
+      left: 77px ;
+      background-color: transparent;
+      border-color :transparent ;
+      font-size: 20pt;
+      line-height: 20px;
+      font-family:"F2"
+      
+      
+    }
+    .textoF3 {
+      z-index: 10;
+      position: absolute;
+      top: 272px;
+      width: 866px;
+      height: 1127px;
+      left: 77px ;
+      background-color: transparent;
+      border-color :transparent ;
+      font-size: 20pt;
+      line-height: 20px;
+      font-family:"F3"
+      
+      
+    }
+    .textoF4 {
+      z-index: 10;
+      position: absolute;
+      top: 272px;
+      width: 866px;
+      height: 1127px;
+      left: 77px ;
+      background-color: transparent;
+      border-color :transparent ;
+      font-size: 20pt;
+      line-height: 20px;
+      font-family:"F4"
+      
+      
+    }
+    .textoF5 {
+      z-index: 10;
+      position: absolute;
+      top: 272px;
+      width: 866px;
+      height: 1127px;
+      left: 77px ;
+      background-color: transparent;
+      border-color :transparent ;
+      font-size: 20pt;
+      line-height: 20px;
+      font-family:"F5"
+      
+      
+    }
+               /*Caderno*/
+
+    .imagem {
+      z-index:5;
+      position: absolute;
+      top: 150px;
+      margin-bottom: 100px;
+    }
+  
+  
+             /*Fontes*/
+
+
+    @font-face {
+      font-family: 'StrangerThings';
+      font-style: normal;
+      font-weight: normal;
+      src: url('fontes/StrangerThings-Regular.ttf');
+    }
+    @font-face {
+      font-family: 'TEQUILA';
+      font-style: normal;
+      font-weight: normal;
+      src: url('fontes/TEQUILA.tff');
+    }
+    @font-face {
+      font-family: 'Old';
+      font-style: normal;
+      font-weight: normal;
+      src: url('fontes/ft1.ttf');
+    }
+    @font-face {
+      font-family: 'F1';
+      font-style: normal;
+      font-weight: normal;
+      src: url('fontes/1.ttf');
+    }
+    @font-face {
+      font-family: 'F2';
+      font-style: normal;
+      font-weight: normal;
+      src: url('fontes/2.ttf');
+    }
+    @font-face {
+      font-family: 'F3';
+      font-style: normal;
+      font-weight: normal;
+      src: url('fontes/3.ttf');
+    }
+    @font-face {
+      font-family: 'F4';
+      font-style: normal;
+      font-weight: normal;
+      src: url('fontes/4.ttf');
+    }
+    @font-face {
+      font-family: 'F5';
+      font-style: normal;
+      font-weight: normal;
+      src: url('fontes/5.otf');
+    }
+  </style>
+  
+</html>
